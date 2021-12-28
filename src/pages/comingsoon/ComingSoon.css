@@ -1,0 +1,25 @@
+.comingsoon-main {
+  width: 100vw;
+}
+
+.comingsoon-main > .comingsoon-class {
+  width: 90%;
+  margin: auto 5%;
+  /* min-height: calc(100vh - 192px); */
+  text-align: center;
+  display: block;
+}
+
+.comingsoon-main > .comingsoon-class > .comingsoon-dark {
+  font-size: 4em;
+  overflow: hidden;
+  padding-top: 10px 0;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 1364px) {
+  .comingsoon-main > .comingsoon-class > .comingsoon-dark {
+    height: 175px;
+    padding-top: 60px;
+  }
+}
